@@ -14,7 +14,7 @@
         cd Jenkins_Conjur/Install_Jenkins/  
         chmod +x *.sh  
         ```
-        - Sau đó, chạy file cài đặt jenkins bằng lệnh:
+    - Sau đó, chạy file cài đặt jenkins bằng lệnh:
 
      
     
