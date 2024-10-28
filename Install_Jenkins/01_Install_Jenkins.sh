@@ -2,7 +2,7 @@
 # Author: DuongDT
 set +x
 #Add the following hostname entry in /etc/hosts file
-echo "10.10.11.145   jenkinslab.poc.local" | sudo tee -a /etc/hosts
+echo "10.10.11.145   jenkins.mylabpoc.local" | sudo tee -a /etc/hosts
 sudo dnf update -y
 sudo dnf install wget -y
 #Add Jenkins Package Repository

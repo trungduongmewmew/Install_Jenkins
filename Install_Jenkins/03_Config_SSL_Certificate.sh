@@ -45,8 +45,8 @@ http {
     
     server {
         listen 443 ssl;
-        server_name jenkinslab.poc.local; #thay doi url cua ban tai day
-        # thay doi duong dan den noi chua cert
+        server_name jenkins.mylabpoc.local;
+        
         ssl_certificate /etc/nginx/ssl/wildcard.crt;
         ssl_certificate_key /etc/nginx/ssl/wildcard.key;
         ssl_trusted_certificate /etc/nginx/ssl/ca.crt;
@@ -64,7 +64,7 @@ http {
 
     server {
         listen 80;
-        server_name jenkinslab.poc.local; #thay doi url tai day
+        server_name jenkins.mylabpoc.local;
         return 301 https://\$host\$request_uri;
     }
 }
