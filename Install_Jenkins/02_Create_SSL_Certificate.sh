@@ -2,7 +2,7 @@
 #Author: DuongDT
 set +x
 # Nhap cac bien can thiet
-DOMAIN="*.poc.local" # Thay the domain cua ban
+DOMAIN="*.mylabpoc.local" # Thay the domain cua ban
 COUNTRY="VN"
 STATE="VN"
 LOCALITY="HCM"

@@ -7,7 +7,7 @@ cp createcert/ca.crt /etc/nginx/ssl/
 cp createcert/wildcard.crt /etc/nginx/ssl/
 cp createcert/wildcard.key /etc/nginx/ssl/
 #cai dat nginx
-sudo yum install nginx
+sudo yum install nginx -y
 
 # Duong dan den file cau hinh nginx
 CONFIG_FILE="/etc/nginx/nginx.conf"
