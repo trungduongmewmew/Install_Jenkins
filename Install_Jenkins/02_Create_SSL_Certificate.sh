@@ -1,6 +1,6 @@
 #!/bin/bash
 #Author: DuongDT
-set +x
+set -x
 # Nhap cac bien can thiet
 DOMAIN="*.mylabpoc.local" # Thay the domain cua ban
 COUNTRY="VN"
@@ -36,4 +36,4 @@ echo "Wildcard certificate created:"
 echo "CA Certificate: /craetecert/ca.crt"
 echo "Wildcard Certificate: /createcert/wildcard.crt"
 echo "Wildcard Private Key: /createcert/wildcard.key"
-set -x
+set +x

@@ -1,6 +1,6 @@
 #!/bin/bash
 #Author: DuongDT
-set +x
+set -x
 # Tao thu muc ssl nginx ca copy cert vao
 sudo mkdir -p /etc/nginx/ssl
 cp createcert/ca.crt /etc/nginx/ssl/
@@ -87,4 +87,4 @@ sudo systemctl restart nginx
 systemctl stop firewalld
 systemctl disable firewalld
 systemctl mask firewalld
-set -x 
+set +x 

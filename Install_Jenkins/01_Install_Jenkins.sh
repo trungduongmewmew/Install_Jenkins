@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: DuongDT
-set +x
+set -x
 #Add the following hostname entry in /etc/hosts file
 echo "10.10.11.145   jenkins.mylabpoc.local" | sudo tee -a /etc/hosts
 sudo dnf update -y
@@ -22,4 +22,4 @@ sudo firewall-cmd --permanent --add-port=8080/tcp
 sudo firewall-cmd --reload
 #show the password for user admin
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-set -x
+set +x
