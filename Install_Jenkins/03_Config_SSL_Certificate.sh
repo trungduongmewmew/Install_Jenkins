@@ -87,4 +87,15 @@ sudo systemctl restart nginx
 systemctl stop firewalld
 systemctl disable firewalld
 systemctl mask firewalld
+
+# Sao luu cau hinh SE linux
+CONFIG_FILE="/etc/selinux/config"
+if [[ -f $CONFIG_FILE ]]; then
+    
+    cp $CONFIG_FILE ${CONFIG_FILE}.backup
+
+    # Tat SE linux
+    sed -i 's/^SELINUX=.*/SELINUX=disabled/' $CONFIG_FILE
+
+    reboot
 set +x 
