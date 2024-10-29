@@ -10,8 +10,8 @@
         sudo mkdir /opt/Jenkins  
         cd /opt/Jenkins  
         sudo yum install git -y  
-        git clone https://github.com/trungduongmewmew/Install_Jenkins.git    
-        cd Jenkins_Conjur/Install_Jenkins/  
+        git clone https://github.com/trungduongmewmew/Jenkins.git    
+        cd Jenkins/Install_Jenkins/    
         chmod +x *.sh  
         ```   
   
@@ -32,7 +32,7 @@
  - Chạy tập lệnh 02_Config_SSL_Certificate.sh  
  - Sau khi hoàn tất , cài đặt cert và root ca trên máy client và truy cập vào url của jenkins qua giao thức https và kiểm tra chứng chỉ đã hợp lệ  
  <img width="935" alt="8" src="https://github.com/user-attachments/assets/342fa467-75bd-454c-9296-bc53e55f33df">  
- 
+
 
 
       
