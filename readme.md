@@ -10,7 +10,7 @@
         sudo mkdir /opt/Jenkins  
         cd /opt/Jenkins  
         sudo yum install git -y  
-        git clone https://github.com/trungduongmewmew/Jenkins_Conjur.git  
+        git clone https://github.com/trungduongmewmew/Install_Jenkins.git    
         cd Jenkins_Conjur/Install_Jenkins/  
         chmod +x *.sh  
         ```   
