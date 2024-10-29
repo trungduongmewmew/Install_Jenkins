@@ -10,7 +10,7 @@ if [ "$current_status" == "enabled" ]; then
     # Chuyen SELinux sang che do permissive
     setenforce 0
     
-    # Kiem tra lai trang thau
+    # Kiem tra lai trang thai
     new_status=$(sestatus | grep 'SELinux status' | awk '{print $3}')
     echo "SELinux da duoc chuyen sang che do: $new_status"
 else
