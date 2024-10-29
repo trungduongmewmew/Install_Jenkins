@@ -1,5 +1,5 @@
 
-# I. Cài đặt và cấu hình Jenkins  
+ 
    ## 1. OS requirment :  
    - Redhat 9.4 or later  
    - RAM : 4GB  
@@ -30,7 +30,7 @@
     - Chạy tập lệnh 02_Config_SSL_Certificate.sh  
     - Sau khi hoàn tất , cài đặt cert và root ca trên máy client và truy cập vào url của jenkins qua giao thức https và kiểm tra chứng chỉ đã hợp lệ  
     <img width="935" alt="8" src="https://github.com/user-attachments/assets/26e78af4-709b-4d4d-837a-04231749bdf2">  
-    
+
 
      
     
