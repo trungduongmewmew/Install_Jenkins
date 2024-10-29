@@ -3,9 +3,9 @@
 set -x
 # Tao thu muc ssl nginx ca copy cert vao
 sudo mkdir -p /etc/nginx/ssl
-cp createcert/ca.crt /etc/nginx/ssl/
-cp createcert/wildcard.crt /etc/nginx/ssl/
-cp createcert/wildcard.key /etc/nginx/ssl/
+cp Cert/ca.crt /etc/nginx/ssl/
+cp Cert/wildcard.crt /etc/nginx/ssl/
+cp Cert/wildcard.key /etc/nginx/ssl/
 #cai dat nginx
 sudo yum install nginx -y
 
@@ -45,7 +45,7 @@ http {
     
     server {
         listen 443 ssl;
-        server_name jenkins.mylabpoc.local;
+        server_name jenkins.mylab.local;
         
         ssl_certificate /etc/nginx/ssl/wildcard.crt;
         ssl_certificate_key /etc/nginx/ssl/wildcard.key;
@@ -64,7 +64,7 @@ http {
 
     server {
         listen 80;
-        server_name jenkins.mylabpoc.local;
+        server_name jenkins.mylab.local;
         return 301 https://\$host\$request_uri;
     }
 }
