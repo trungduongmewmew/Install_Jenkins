@@ -22,7 +22,6 @@
     - Nhập passcode đã lưu ở trên để login vào account admin  
    <img width="922" alt="2" src="https://github.com/user-attachments/assets/7978b795-d942-490b-b9c8-a1bdaaddb742">  
     - Chọn Install sugggested plugin để Jenkins tự động cài đặt các plugin cần thiết  
-    
     - Tạo user để login vào Jenkins  
    <img width="938" alt="3" src="https://github.com/user-attachments/assets/d1fb0c35-b72d-4c8e-ba5b-6a0443fb97ea">  
     - Tạo url instance, sau đó login vào portal bằng user vừa tạo ở trên.  
