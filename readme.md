@@ -26,6 +26,7 @@
    <img width="938" alt="3" src="https://github.com/user-attachments/assets/d1fb0c35-b72d-4c8e-ba5b-6a0443fb97ea">  
     - Tạo url instance, sau đó login vào portal bằng user vừa tạo ở trên.  
    <img width="956" alt="4" src="https://github.com/user-attachments/assets/931611c8-f058-4641-9b9f-785538070942">  
+
     ## 3.Cấu hình SSL cho Jenkins  
     - Trong folder Cert chứa 3 file cert wildcard cho domain mylab.local . Bạn có thể đổi lại cert của bạn nếu cần  
     - Chạy tập lệnh 02_Config_SSL_Certificate.sh  
